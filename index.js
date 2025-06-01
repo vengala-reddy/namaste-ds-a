@@ -35,7 +35,7 @@ let obj = { // object variable
     displaySubjects: function() { // adding a method to display subjects
         console.log("Subjects: " + this.subjects.join(", "));
     }
-}; // closing the object definition
-obj.greet(); // calling the greet method
-obj.introduce(); // calling the introduce method
-obj.displaySubjects(); // calling the displaySubjects method
+}; 
+obj.greet();
+obj.introduce();
+obj.displaySubjects();

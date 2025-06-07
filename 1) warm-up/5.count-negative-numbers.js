@@ -9,3 +9,6 @@ function countNegativeNumbers(arr) {
 const numbers = [1, -2, 3, -4, 5, -6, 7, -8, 9, 10];
 const negativeNumbersArray = countNegativeNumbers(numbers);
 console.log("Negative numbers in the array:", negativeNumbersArray); // Output: [-2, -4, -6, -8]
+// Count the number of negative numbers
+const countNegative = negativeNumbersArray.length;
+console.log("Count of negative numbers:", countNegative); // Output: 4
